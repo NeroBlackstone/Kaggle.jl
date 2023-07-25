@@ -2,7 +2,7 @@
 
 julia_version = "1.9.1"
 manifest_format = "2.0"
-project_hash = "0a63fa955ab04f5fd11bc20646d9a862133c68a5"
+project_hash = "4d82e204830c4f2a8d5faec913a4f3412f3b70ba"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -162,6 +162,12 @@ version = "2022.10.11"
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 version = "1.2.0"
 
+[[deps.OpenAPI]]
+deps = ["Base64", "Dates", "Downloads", "HTTP", "JSON", "LibCURL", "MbedTLS", "TimeZones", "URIs"]
+git-tree-sha1 = "1dbe13b10aaa39f3aa37690a80df7e2cc520eec6"
+uuid = "d5e62ea6-ddf3-4d43-8e4c-ad5e6c8bfd7d"
+version = "0.1.14"
+
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "OpenSSL_jll", "Sockets"]
 git-tree-sha1 = "51901a49222b09e3743c65b8847687ae5fc78eb2"
@@ -235,12 +241,6 @@ version = "1.1.0"
 
 [[deps.Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
-
-[[deps.Swagger]]
-deps = ["Dates", "Downloads", "JSON", "LibCURL", "MbedTLS", "URIs"]
-git-tree-sha1 = "902fc4b6d7322789caff6f5981999bd08cba8eea"
-uuid = "2d69052b-6a58-5cd9-a030-a48559c324ac"
-version = "0.3.7"
 
 [[deps.TOML]]
 deps = ["Dates"]

@@ -4,9 +4,6 @@ authors = ["Nero Blackstone <gf7600gs@gmail.com>"]
 version = "0.1.0"
 
 [deps]
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Swagger = "2d69052b-6a58-5cd9-a030-a48559c324ac"
+OpenAPI = "d5e62ea6-ddf3-4d43-8e4c-ad5e6c8bfd7d"
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
